@@ -1,9 +1,9 @@
 package com.kotlin.kotlindemo.service
 
 import domain.PairingMatrixData
-import org.junit.jupiter.api.Assertions.assertTrue
-import org.junit.jupiter.api.BeforeEach
-import org.junit.jupiter.api.Test
+import junit.framework.Assert.assertTrue
+import org.junit.Before
+import org.junit.Test
 import reactor.core.publisher.toMono
 
 
@@ -11,7 +11,7 @@ class PairingMatrixServiceTest {
 
     lateinit var pairingMatrixService: PairingMatrixService
 
-    @BeforeEach
+    @Before
     internal fun setUp() {
         pairingMatrixService = PairingMatrixService()
     }

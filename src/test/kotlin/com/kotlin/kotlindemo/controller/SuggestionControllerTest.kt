@@ -1,10 +1,8 @@
 package com.kotlin.kotlindemo.controller
 
-import com.kotlin.kotlindemo.MockitoExtension
 import com.kotlin.kotlindemo.service.PairingMatrixService
 import domain.PairingMatrixData
-import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.extension.ExtendWith
+import org.junit.Test
 import org.junit.runner.RunWith
 import org.mockito.InjectMocks
 import org.mockito.Mock
@@ -14,7 +12,6 @@ import org.mockito.junit.MockitoJUnitRunner
 import reactor.core.publisher.toMono
 
 @RunWith(MockitoJUnitRunner::class)
-@ExtendWith(MockitoExtension::class)
 class SuggestionControllerTest {
 
     @Mock
