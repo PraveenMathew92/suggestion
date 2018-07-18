@@ -14,7 +14,7 @@ class SuggestionController {
     @Autowired
     lateinit var pairingMatrixService: PairingMatrixService
 
-    @PostMapping("/dummy1")
+    @PostMapping("/pairing/suggestion")
     fun getPairingSuggestion(@RequestBody pairingData: Mono<List<PairingMatrixData>>) : Flux<Pair<String, String>> {
         return pairingMatrixService.getSuggestion(pairingMatrixData = pairingData)
     }
