@@ -60,10 +60,4 @@ dependencies {
 	kapt    "io.arrow-kt:arrow-annotations-processor:$arrow_version"
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
-//	testCompile("org.junit.jupiter:junit-jupiter-api")
-//	testRuntime("org.junit.jupiter:junit-jupiter-engine")
-//	testRuntime("org.junit.vintage:junit-vintage-engine:4.12.2")
-//	testCompile("org.mockito:mockito-core:2.11.0")
-
-
 }
