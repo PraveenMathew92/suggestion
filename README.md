@@ -30,7 +30,7 @@ Do a post call using command line or postman or anyother tool to http://localhos
 
 ```
 with body as
-
+```
 [
 	{
 		"pair1": "a1",
@@ -56,7 +56,7 @@ with body as
 ```
 
 should give you the following response
-
+```
 [
   {
     "first": "a1",
