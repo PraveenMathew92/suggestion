@@ -26,8 +26,6 @@ cd suggestion
 The application runs in port 3000 by default
 
 ```
-
-```
 Do a post call using command line or postman or anyother tool to http://localhost:3000/pairing/suggestion
 
 with body as
@@ -82,5 +80,5 @@ should give you the following response
 
 * **Prasenjit Chakraborty** - *Initial work* - [cprasenj](https://github.com/cprasenj)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/cprasenj/suggestion/graphs/contributors) who participated in this project.
 
