@@ -79,7 +79,7 @@ should give you the following response
 
 ## Authors
 
-* **Prasenjit Chakraborty** - *Initial work* - [cprasenj](https://github.com/cprasenj)
+* **Prasenjit Chakraborty** - *[cprasenj](https://github.com/cprasenj)* -
 
 See also the list of [contributors](https://github.com/cprasenj/suggestion/graphs/contributors) who participated in this project.
 
